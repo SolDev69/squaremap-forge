@@ -33,6 +33,9 @@ setupSubproject("squaremap-fabric") {
 setupSubproject("squaremap-sponge") {
   projectDir = file("sponge")
 }
+setupSubproject("squaremap-forge") {
+  projectDir = file("sponge")
+}
 
 inline fun setupSubproject(name: String, block: ProjectDescriptor.() -> Unit) {
   include(name)
